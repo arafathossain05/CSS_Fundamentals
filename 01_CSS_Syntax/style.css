@@ -1,3 +1,14 @@
+/* 
+    color:blank =>Declaration
+    color => property
+    black => value
+*/
+
+/* 
+    selector(h1) {
+    property(color): value(black);
+    property(font-size): value(30px);
+*/
 h1{
   background-color: aliceblue;
   color: black;
