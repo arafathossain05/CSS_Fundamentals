@@ -1,0 +1,15 @@
+/* This is a single-line comment */
+p{
+  color: black;
+  background-color: beige;
+}
+
+/* 
+This is
+a multi-line
+comment 
+*/
+p{
+  font-size: 30px;
+  text-align: center;
+}
