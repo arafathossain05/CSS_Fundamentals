@@ -1,0 +1,78 @@
+.a1{
+   font-size: 30px;
+   color: crimson;            /*   Text color  */
+   text-align: center;          /*   Text align  */
+   text-decoration: overline;   /*   text-decoration */
+   text-transform: uppercase;    /*  text-transform */
+   text-shadow: 5px 5px 5px green;  /*  Text Shadow  */
+}
+.a2{
+   color:coral;    
+   text-align: end;
+   text-decoration:underline;
+   font-size: 30px;
+   text-transform:lowercase;
+   text-shadow: 8px 8px 8px gold;
+}
+.a3{
+   color: crimson;  
+   text-align: left;
+   text-decoration:line-through;
+   font-size: 30px;
+   text-transform: capitalize;
+  text-shadow: 8px 8px 3px black;
+}
+.a4{
+   color: rgb(123, 146, 96);  
+   text-align: right;
+   text-decoration-style: dotted;
+   text-decoration-color: black;
+   text-decoration-line: underline;
+   font-size: 30px;
+}
+.a5{
+   color: rgb(20, 220, 43);  
+   text-decoration: double red underline; 
+   font-size: 30px;
+}
+.a6{
+   color: rgb(135, 42, 135);  
+   font-size: 30px;
+   text-decoration: wavy underline;
+}
+.a6 .b{
+   width: 30px;
+   height: 25px;
+   vertical-align:text-top;
+}
+.a7{
+   color: dodgerblue;  
+   direction: rtl;
+   font-size: 30px;
+   text-decoration: underline solid green;
+}
+.a8 {
+   color:rgb(38, 60, 82);  
+   font-size: 30px;
+   vertical-align:text-top;
+   text-decoration: dotted line-through green;
+}
+.a8 .a{
+   width: 30px;
+   height: 25px;
+   vertical-align:super;
+}
+.a9{
+  font-size: 40px;
+  text-align:right;
+}
+.text{
+  font-size: 40px;
+  color:chocolate;
+  text-align: justify;
+  text-transform: capitalize;
+  text-indent: 100px;
+  letter-spacing: 8px;
+  line-height: 70px;
+  word-spacing: 50px;
+}
