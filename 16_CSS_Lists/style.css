@@ -1,0 +1,37 @@
+.f1 li{
+  list-style-type: decimal;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.f2 li{
+  list-style-type:lower-greek;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.f3 li{
+  list-style: lower-roman;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.f4 li{
+  /*   list-style-position: inside;       */
+  /*   list-style-position: outside;      */
+  /*   list-style: decimal-leading-zero;  */
+  font-size: 20px;
+  font-family: 'Audiowide';
+  list-style:upper-latin;
+  text-align: justify;
+}
+.f5 li{
+  list-style: circle;
+  font-size: 20px;
+  font-weight: 550;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+}
+.f6 li{
+  list-style-position: inside;
+  font-size: 20px;
+  list-style:square;
+  text-align: justify;
+}
