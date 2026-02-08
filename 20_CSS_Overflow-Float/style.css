@@ -1,0 +1,46 @@
+.p1{
+  width: 500px;
+  height: 200px;
+  text-align: justify;
+  background-color: darkgrey;
+  overflow-x:hidden;
+  overflow-y: scroll;
+  margin: 40px;
+  padding: 15px;
+  border: 2px solid darkcyan;
+}
+p{
+  margin-left: 10px;
+  text-align: justify;
+}
+
+.d1 img{
+  /* float: left; */
+  float: right;
+  margin-left: 20px;
+}
+.d1 p{
+  text-align: justify;
+  margin-left: 10px;
+}
+.c1{
+  background-color: chartreuse;
+  width: 250px;
+  height: 100px;
+}
+.c2{
+  background-color:darkorange;
+  width: 250px;
+  height: 100px;
+}
+.c3{
+  background-color: yellow;
+  width: 250px;
+  height: 100px;
+}
+.cc div{
+  /* float: right; */
+  float: left;
+  margin: 10px;
+  text-align: center;
+}

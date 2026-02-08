@@ -1,0 +1,22 @@
+.j1 {
+  border: 2px solid hotpink;
+  padding: 15px;
+  float: left;
+}
+.j2{
+  width: 200px;
+  border: 2px solid hotpink;
+  padding: 15px;
+}
+.j3{
+  border: 2px solid green;
+  padding: 20px;
+  float: left;
+}
+.j4{
+  border: 2px solid blue;
+  width: 240px;
+  text-align: justify;
+  padding: 10px;
+  clear: left;
+}
