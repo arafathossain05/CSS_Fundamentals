@@ -1,0 +1,16 @@
+.conteinar{
+  background-color: blueviolet;
+  border: 2px solid black;
+  padding: 20px;
+  height: 100px;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  border: 2px solid black;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
