@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="box1">Block Element</div>
+
+  <div class="box2">Inline Element</div>
+  <div class="box2">Inline Element</div>
+
+  <div class="box3">Inline-block</div>
+  <div class="box3">Inline-block</div>
+
+  <div class="box4">This will not show</div>
+
+  <script>
+function myFunction() {
+  var x = document.getElementById("p2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<p class="p1" onclick="myFunction()">Flowers</p>
+<div id="p2">
+  <p>Rose</p>
+  <p>Lotus</p>
+  <p>Sunflower</p>
+  <p>Lily</p>
+  <p>Marigold</p>
+</div>
+</body>
+</html>

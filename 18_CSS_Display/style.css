@@ -1,0 +1,54 @@
+.box1{
+  display: block;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 5px;
+ }
+.box2{
+  display: inline;
+  background-color: lightgreen;  /*  width/height doesn't work   */
+  padding: 10px;
+  margin: 5px;
+}
+
+.box3{
+  display: inline-block;
+  background-color: lightcoral;
+  width: 120px;
+  height: 60px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.box4{
+  display: none;
+}
+.p1{
+  border: 3px solid red;
+  background-color: #04AA6D;
+  cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  width: 20%;
+}
+#p2{
+  display:none;
+  cursor: auto;
+  width: 26%;
+}     
+#p2 p{
+  border: 3px solid black;
+  font-size: 25px;
+  text-align: center;
+  background-color: beige;
+  padding: 5px;
+} 
+#p2 p:hover{
+  background-color:lawngreen;
+}
+.p1:hover{
+  background-color: aliceblue;
+}
+
+  
