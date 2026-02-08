@@ -1,0 +1,47 @@
+table {
+  border: 2px solid darkorange;
+  text-align: center;
+}
+td{
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid darkorange;
+}
+th{
+  font-size: 25px;
+  padding: 10px;
+  border: 2px solid darkorange;
+  height: 70px;
+}
+table{
+  margin: 50px;
+}
+/*    Border Collapse  */
+.t1 {
+  border-collapse: collapse;
+  width: 60%;
+  background-color: darkblue;
+  color: white;
+  border: 5px solid white;
+}
+.t2{
+  border-collapse: collapse;
+  font-size: 25px;
+  width: 100%;
+}
+td ,th{
+  padding: 10px;
+}
+
+th:hover{
+  background-color: cadetblue;
+}
+td:hover{
+  background-color: cadetblue;
+}
+.box{
+  overflow-x:scroll;
+}
+.box1{
+  overflow-x:scroll;
+}
