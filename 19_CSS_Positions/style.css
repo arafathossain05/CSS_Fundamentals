@@ -1,0 +1,130 @@
+/* 
+   Position Property=
+   static - This is default
+   relative
+   fixed
+   absolute
+   sticky
+
+*/
+.p1{
+  border: 4px double lightcoral ;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  position: static;
+  padding-top:8px ;
+  padding-bottom: 8px;
+}
+.d img{
+  width: 50px;
+  right: 0;
+  bottom: 0;
+  position: fixed;  /*  position fixed   */
+  margin: 40px;
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 1000;
+  background-color: white;
+}
+.d1{
+  background-color: chocolate;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.d2{
+  background-color:brown;
+  width: 200px;
+  height: 200px;
+  left: 400px;
+  top: -200px;
+  position: relative;
+}
+.d3{
+  background-color:hotpink;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -400px;
+  left: 200px;
+}
+.d4{
+  background-color: #05c46b;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 600px;
+}
+.d5{
+  background-color:#ff3f34;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 300px;
+}
+.d6{
+  background-color:#1e272e;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 00px;
+}
+.d7 img{
+  width: 500px;
+  height: 400px;
+  opacity: 0.2;
+
+}
+.d7{
+  margin-left: 50px;
+  margin-top: 50px;
+  z-index: auto;
+}
+.top_left{
+  position: absolute;
+  top: 960px;
+  left: 90px;
+  font-size: 25px;
+}
+.top_right{
+  position: absolute;
+  top: 960px;
+  left: 430px;
+  font-size: 25px;
+}
+.bottom_left{
+  position: absolute;
+  top: 1290px;
+  left: 90px;
+  font-size: 25px;
+}
+.bottom_right{
+  position: absolute;
+  top: 1290px;
+  left: 400px;
+  font-size: 25px;
+}
+.center{
+  position: absolute;
+  top: 158%;
+  left: 36%;
+  text-align: center;
+  font-size: 25px;
+}
+.d8{
+  border: 2px solid black;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: peru;
+  color: aliceblue;
+  font-size: 25px;
+}
+.d9{
+  margin-top: 700px;
+  margin-bottom: 100px;
+}
