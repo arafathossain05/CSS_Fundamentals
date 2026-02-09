@@ -1,0 +1,59 @@
+body{
+   font-family: "Poppins", sans-serif;
+   margin: 0;
+}
+.main{
+  background:#182C61;
+}
+.main ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.main ul li{
+  display: inline-block;
+  position: relative;     
+  /* background: greenyellow; */
+}
+.main ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  display: block;
+  padding: 12px 15px;
+  /* background: red; */
+}
+.main ul li a:hover{
+  background: #0652dd;
+}
+.main ul ul{
+  position: absolute;
+  background: #55E6C1;
+  width: 190px;
+  top: 48px;
+  left: 0;
+  display: none;
+}
+.main ul ul li{
+  display: block;
+}
+
+.main ul li:hover a{
+  background: #0652dd;
+}
+.main ul li:hover ul {
+  display: block;
+}
+.main ul li :hover li a{
+  background:#0652dd;
+}
+.main ul ul li a:hover{
+  background:#CAD3C8 ;
+  color: black;
+}
+.main ul .u1{
+  width: 120px;
+}
+.main ul ul .c1{
+  font-size: 15px;
+}
