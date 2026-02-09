@@ -1,0 +1,56 @@
+.p1::first-line{
+   font-size: 30px;
+}
+.p2::first-letter{
+   color: red;
+   font-size: 30px;
+}
+.p3::first-letter{
+  color: chartreuse;
+  font-size: 30px;
+}
+.p3::first-line{
+   font-variant: small-caps;
+   font-size: 20px;
+   color: darkkhaki;
+}
+.p4::before{     
+  content: " ";
+  display: inline-block;
+  background-image: url(emoji.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 20px;
+}
+.p4::first-line{
+  background-color: beige;
+}
+.p5::after{
+  content: "";
+  display: inline-block;
+  background-image: url(emoji.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 60px;
+}
+.p5::first-line{
+   font-variant: 20px;
+   font-size: 30px;
+}
+::selection{
+  background-color: goldenrod;
+  color: black;
+}
+button{
+  font-size: 18px;
+  padding: 10px;
+}
+dialog::backdrop{
+  background-color: forestgreen;
+}
+p{
+  padding: 50px;
+  font-size: 20px;
+}
