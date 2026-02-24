@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Math Functions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <h2>CSS Math Functions</h2>
+     <p>ব্রাউজার উইন্ডোর সাইজ ছোট-বড় করে পরিবর্তনগুলো লক্ষ্য করুন।</p>
+
+    <!--   calc()  -->
+      <div class="box calc-box">
+        <h3>1. calc(50% - 30px)</h3>
+        <p>এই বক্সের প্রস্থ সবসময় স্ক্রিনের অর্ধেক থেকে 300x কম থাকবে। The width of this box will always be 300x less than half of the screen.</p>
+    </div>
+
+     <!-- min() -->
+      <div class="box min-box">
+        <h3>2. min(80%, 400px)</h3>
+        <p>এটি 80% প্রস্থ নিতে চাইবে, কিন্তু 400px এর বেশি হবে না। (বড় স্ক্রিনে 400px এ আটকে যাবে)। It will want to take 80% width, but not more than 400px. (Will stick to 400px on the big screen).</p>
+     </div>
+
+    <!-- max() -->
+      <div class="box max-box">
+        <h3>3. max(50%, 300px)</h3>
+        <p>এটি 50% প্রস্থ নিতে চাইবে, কিন্তু যদি 50% 300px এর কম হয়, তবে এটি 300px ধরে রাখবে। (ছোট স্ক্রিনে 300px এ আটকে থাকবে)। It will want to take 50% width, but if 50% is less than 300px, it will hold 300px. (Will stick to 300px on the small screen).</p>
+    </div>
+
+      <div class="box clamp-box">
+        4. clamp(1.5rem, 5vw, 3rem)
+        <p style="font-size: 0.5em; font-weight: normal; margin-top: 10px;">
+            এই লেখার সাইজ স্ক্রিনের সাথে সাথে বাড়বে এবং কমবে, কিন্তু খুব বড় বা খুব ছোট হবে না।
+            (The size of this text will increase and decrease with the screen, but will not be too large or too small.)
+        </p>
+    </div>
+
+    <div class="info" id="windowSize">Window Size: Loading...</div>
+
+</body>
+</html>
