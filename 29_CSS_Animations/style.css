@@ -1,0 +1,70 @@
+   body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f0f2f5;
+      gap: 40px;
+        }
+    .btn-example {
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+  }
+    .btn-example:hover {
+      background-color: #0056b3;
+      transform: translateY(-5px); 
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+
+  .box-example {
+      width: 100px;
+      height: 100px;
+      background-color: #e74c3c;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* বাউন্স ইফেক্ট */
+  }
+
+     .box-example:hover {
+      transform: scale(1.5) rotate(180deg);
+      background-color: #c0392b;
+  }
+
+    .width-box {
+        width: 150px;
+        height: 60px;
+        background-color: #2ecc71;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        overflow: hidden;
+        white-space: nowrap;
+        transition: 0.3s ease, 1s ease-in-out, 0.5s ease;
+     }
+
+  .width-box:hover {
+        width: 300px;
+        background-color: #27ae60;
+        border-radius: 5px;
+     }
+
+  label {
+       font-size: 14px;
+       color: #666;
+       margin-bottom: 5px;
+       display: block;
+    }
