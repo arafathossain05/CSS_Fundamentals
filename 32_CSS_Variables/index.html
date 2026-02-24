@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>CSS Variables</h1>
+        <p>
+            নিচের রঙের বাটনে ক্লিক করুন,আপনি দেখবেন শুধুমাত্র একটি ভেরিয়েবলের মান পরিবর্তন করার ফলে পুরো পেজের রঙ পাল্টে গেছে।
+        </p>
+        
+        <button class="btn" onclick="alert('Button color uses Variable!')">Click Me</button>
+    </div>
+
+    <div class="theme-controls">
+        
+        <button class="theme-btn" style="background-color: #3498db;" onclick="setTheme('#3498db', '#ecf0f1')"></button>
+        
+        <button class="theme-btn" style="background-color: #e74c3c;" onclick="setTheme('#e74c3c', '#fdedec')"></button>
+        
+        <button class="theme-btn" style="background-color: #2ecc71;" onclick="setTheme('#2ecc71', '#eafaf1')"></button>
+        
+        <button class="theme-btn" style="background-color: #8e44ad;" onclick="setTheme('#8e44ad', '#f4ecf7')"></button>
+
+        <button class="theme-btn" style="background-color: #ffd32a;" onclick="setTheme('#ffd32a', '#f4ecf7')"></button>
+    </div>
+
+    <script>
+        
+        function setTheme(color, bgColor) {
+            
+            const root = document.documentElement;
+            
+            root.style.setProperty('--primary-color', color);
+            
+            root.style.setProperty('--bg-color', bgColor);
+        }
+    </script>
+
+</body>
+</html>
